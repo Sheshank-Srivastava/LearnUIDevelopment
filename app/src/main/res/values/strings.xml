@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LearnUIDevelopment</string>
+    <string name="default_name">Sheshank</string>
+    <string name="default_descrip">Lorem ipsum dolor sit amet, et ac placerat commodo urna enim, praesent elementum accumsan nam neque dis lorem, praesent sed luctus sit, nec in. Nulla sit, ridiculus curabitur cras, ultricies diam, porttitor sodales purus pellentesque mauris. Cras purus, id velit quam quis sit nisl arcu.</string>
+    <string name="close">Close</string>
+    <string name="details">Details</string>
+</resources>
