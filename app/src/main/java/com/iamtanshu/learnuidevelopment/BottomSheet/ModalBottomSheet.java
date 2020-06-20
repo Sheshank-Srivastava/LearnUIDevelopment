@@ -26,6 +26,8 @@ public class ModalBottomSheet extends BottomSheetDialogFragment {
         txt_UserName = view.findViewById(R.id.bottom_UserName);
         btn_close = view.findViewById(R.id.btn_close);
         btn_details = view.findViewById(R.id.btn_details);
+
+       //get the user name from the activity
         String name = getArguments().getString("name");
         txt_UserName.setText(name);
 

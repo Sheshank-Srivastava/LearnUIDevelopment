@@ -17,12 +17,13 @@ public class MainActivity extends AppCompatActivity {
     RecyclerView recyc_UserList;
     UserListAdapter adapter;
     LinearLayoutManager manager;
+    List<String> mUserList = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final List<String> mUserList = new ArrayList<>();
+
         mUserList.add("Sheshank Srivastava");
         mUserList.add("Piyush Khanna");
         mUserList.add("Tushar Garg");
@@ -33,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
         mUserList.add("Shivam Shukla");
         mUserList.add("Abhilash Kumar");
         mUserList.add("Rishab Anand");
-
-
 
         recyc_UserList = findViewById(R.id.recyc_UserList);
         manager = new LinearLayoutManager(this);
