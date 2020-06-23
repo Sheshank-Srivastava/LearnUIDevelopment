@@ -40,11 +40,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new UserListAdapter(MainActivity.this, mUserList, new UserListAdapter.ItemClickListener() {
             @Override
             public void onClick(View v,int position) {
-                ModalBottomSheet dialog = new ModalBottomSheet();
-                Bundle data = new Bundle();
-                data.putString("name",mUserList.get(position));
-                dialog.setArguments(data);
-                dialog.show(getSupportFragmentManager(),"ModelBottomSheet");
+
 
             }
         });
