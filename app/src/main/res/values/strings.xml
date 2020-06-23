@@ -1,10 +1,11 @@
 <resources>
-    <!--    <string name="app_name">LearnUIDevelopment</string>-->
-    <string name="app_name">SnackBarDemo</string>
-    <string name="default_name">Sheshank</string>
+        <string name="app_name">LearnUIDevelopment</string>
+<!--    <string name="app_name">SnackBarDemo</string>-->
+    <string name="default_name">Sheshank Srivastava</string>
     <string name="default_descrip">Lorem ipsum dolor sit amet, et ac placerat commodo urna enim, praesent elementum accumsan nam neque dis lorem, praesent sed luctus sit, nec in. Nulla sit, ridiculus curabitur cras, ultricies diam, porttitor sodales purus pellentesque mauris. Cras purus, id velit quam quis sit nisl arcu.</string>
     <string name="close">Close</string>
     <string name="details">Details</string>
     <string name="def">Default</string>
     <string name="default_snacktext">This is text for custom snackbar.</string>
+    <string name="default_date">22 June 2020</string>
 </resources>
