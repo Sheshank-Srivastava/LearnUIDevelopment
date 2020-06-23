@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     LinearLayoutManager manager;
     List<String> mUserList = new ArrayList<>();
 
-    //bottom Sheet variable
+    //Declareing bottom Sheet variable
     BottomSheetBehavior bottomSheetBehavior;
     BottomSheetDialog bottomSheetDialog;
     View bottom_sheet, view;
@@ -84,18 +84,19 @@ public class MainActivity extends AppCompatActivity {
         bottomSheetDialog = new BottomSheetDialog(this);
 
         bottomSheetDialog.setContentView(view);
-        bottomSheetDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//        bottomSheetDialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         ((View) view.getParent()).setBackgroundColor(getResources().getColor(android.R.color.transparent));
 
         txtUserName = view.findViewById(R.id.txt_name);
         imgClose = view.findViewById(R.id.img_close);
-
+        btn_PingMe = view.findViewById(R.id.btn_click);
         imgClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 bottomSheetDialog.dismiss();
             }
         });
+
         btn_PingMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
